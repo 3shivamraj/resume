@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    font-weight: 400;
+}
+
+.heading{
+    background-image: url(images/developer.png);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading .name{
+    display: flex;
+    transform: translate(0 ,-190px);
+}
+
+
+.heading .name h5 span{
+font-size: 60px;
+}
+
+
+.heading .name h5 {
+    
+    font-size: 40px;
+    color: white;
+}
+
+.heading h4 {
+    transform: translate(0,-175px);
+    font-size: 20px;
+    color: white;
+}
+
+.work {
+    width: 100vw;
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work h5 {
+    /* position: absolute; */
+    font-size: 100px;
+    font-weight: 100;
+    
+
+}
+
+.work h5 span {
+    font-size: 120px;
+    
+}
+
+.menu {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+}
+.menu .card {
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2 ) ;
+    border-radius: 15px;
+    transition: ease-in;
+    transition-duration: 0.2s;
+}
+
+.menu .card:hover {
+    width: 315px;
+    height: 365px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5 ) ;
+    border-radius: 15px;
+
+}
+.menu .card1 img {
+    width: 100%;
+    
+
+}
+
+.menu .card1 h1 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.menu .card1 p {
+    margin: 10px;
+    margin-top: 20px;
+}  
+
+.footer {
+    width: 100vw;
+    height: 400px;
+    
+}
+.footer .info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .contact{
+    background-color: green;
+    height:400px ;
+    width: 50vw;
+}
+
+.footer .about {
+    background-color: brown;
+    height:400px ;
+    width: 50vw;
+}
+
+.info h1 {
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+
+.info h1{
+    font-size: 55px;
+    font-weight: 100;
+}
+
+.info p {
+    margin: 15px;
+}
+
+.made {
+    width: 100vw;
+    height: 100px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone_num {
+    margin:15px ;
+    color: black;
+    text-decoration: none;
+}
